@@ -1,122 +1,76 @@
 <!DOCTYPE html>
 <html>
-
 <head>
     <title>Asish/home</title>
-    <style>
-        body {
-            padding: 0 10px;
-        }
-
-        .nav-container {
-            font-family: sans-serif;
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            margin-bottom: 40px;
-        }
-
-        .nav-container a {
-            padding: 5px 10px;
-            text-decoration: none;
-            border-radius: 10%;
-            color: rgb(0, 0, 156);
-            font-size: 0.9rem;
-            font-weight: bold;
-        }
-
-        .img-name {
-            display: flex;
-            align-items: center;
-            justify-content: flex-start;
-            width: fit-content;
-        }
-
-        .img-name img {
-            margin-right: 30px;
-        }
-
-        #desc {
-            font-family: sans-serif;
-            text-align: justify;
-            line-height: 25px;
-        }
-
-        #contact-me {
-            color: rgb(0, 84, 149);
-            display: flex;
-            align-items: center;
-            justify-content: center;
-            gap: 20px;
-        }
-
-        #contact-me a {
-            align-items: center;
-            justify-content: center;
-            text-decoration: none;
-            font-weight: bold;
-            font-size: 1.2rem;
-        }
-
-        .video-container {
-            display: flex;
-            align-items: center;
-            justify-content: center;
-        }
-    </style>
     <meta name="viewport" content="width-device-width, initial-scale=1.0">
+    <link rel="stylesheet" href="./css/index.css">
+    <link rel="stylesheet" href="./css/style.css">
+    <link rel="stylesheet" href="./css/footer.css">
+
+    <link rel="preconnect" href="https://fonts.googleapis.com">
+    <link rel="preconnect" href="https://fonts.gstatic.com" crossorigin>
+    <link href="https://fonts.googleapis.com/css2?family=Courgette&display=swap" rel="stylesheet">
+    <link href="https://fonts.googleapis.com/css2?family=Inter&display=swap" rel="stylesheet">
 </head>
 
-<body style="background-color:rgb(252, 255, 221);">
+<body>
     <div class="nav-container">
-        <a href="./index.html" target="_blank">HOME</a>
-        <a href="./education.html" target="_blank">EDUCATION</a>
-        <a href="./projects.html" target="_blank">PROJECTS</a>
-        <a href="./hobbies.html" target="_blank">HOBBIES</a>
-        <a href="./feedback.html" target="_blank">FEEDBACK</a>
+        <a href="./index.html">HOME</a>
+        <a href="./education.html">EDUCATION</a>
+        <a href="./projects.html">PROJECTS</a>
+        <a href="./hobbies.html">HOBBIES</a>
+        <a href="./feedback.html">FEEDBACK</a>
     </div>
-    <div class="img-name">
-        <img id="myimage" title="A Asish"
-            src="https://media.licdn.com/dms/image/D4D03AQFctxt_BRCiag/profile-displayphoto-shrink_800_800/0/1679055254326?e=1697068800&v=beta&t=VLGOmeggnw5J2xPL9C33r1TgIXlkuUntNSZkuVsg6Ww"
-            style=" width:100px; border-radius: 40%; border: 1px solid black;">
-
-        <h1 style="font-family: algerian;color: rgba(22, 149, 0, 0.463);letter-spacing: 2px;">A ASISH</h1>
+    <div class="main-container">
+        <div class="img-container">
+            <img id="myimage"
+                src="assets/Asish.jpg">
+        </div>
+        <div class="text-container">
+            <h1 class="welcome"><span>はじめまして!</span> <span>わたしは</span> <span>アシス</span>
+                <span>です</span> </h1>
+            <p class="normal-para">
+                As a computer science student, I am passionate about coding and enjoy writing code to solve problems. I am also
+                curious about various pools of computer science like theory, systems and intelligent systems pool and am
+                currently on a journey to explore more about all of these. For the fulfilment of this curiosity, I am currently
+                pursuing a Master's degree in Computer Science from IIT Bombay.
+            </p>
+            <p class="normal-para">
+                I like to gain knowledge from people around me and am an avid learner. Not just in studies, I have interest in
+                some extracurricular activities like sports. I am deeply interested in world affairs and closely follow news
+                about India and the world. I strongly believe that young generation should actively engage in politics and
+                public affairs so that we can make this world a more liveable and intersting place using our creative ideas.
+            </p>
+            <p class="normal-para">
+                I am a good listener and like to listen different opinions of people. My contact details have been mentioned in
+                this website. Feel free to reach out to me for any questions, queries or just to discuss any interesting topic
+                with me.
+            </p>
+        </div>
     </div>
-    <p id="desc" style="font-size: 11pt;color: rgb(159, 0, 0);font-family:comic sans ms;"><b>Welcome to my website!</b>
-        Here
-        you will find a brief
-        introduction about me.<br>
-        As a computer science student, I am passionate about coding and enjoy writing code to solve problems. I am also
-        curious about various pools of computer science like theory, systems and intelligent systems pool and am
-        currently on a journey to explore more about all of these. For the fulfilment of this curiosity, I am currently
-        pursuing a Master's degree in Computer Science from IIT Bombay.<br>
-        I like to gain knowledge from people around me and am an avid learner. Not just in studies, I have interest in
-        some extracurricular activities like sports. I am deeply interested in world affairs and closely follow news
-        about India and the world. I strongly believe that young generation should actively engage in politics and
-        public affairs so that we can make this world a more liveable and intersting place using our creative ideas.<br>
-        I am a good listener and like to listen different opinions of people. My contact details have been mentioned in
-        this website. Feel free to reach out to me for any questions, queries or just to discuss any interesting topic
-        with me.</p>
 
-    <br>
-    <h3 style="text-align: center;">Campus Tour of IIT Bombay :</h3><br>
+    <h2>Campus Tour of IIT Bombay:</h2>
     <div class="video-container">
-        <video id="myvideo" controls width="500">
-            <source
-                src="https://rr2---sn-npoeenl7.googlevideo.com/videoplayback?expire=1691426797&ei=jcvQZJ-wJpGaobIPxPSCqAE&ip=2800%3A810%3A458%3Af9f%3A9d42%3Ab46f%3Ad532%3A1bae&id=o-AFKzWJMd8ZFg13V0VAiXoJfUgmt6DA3-ZMhdZu3UbQXF&itag=18&source=youtube&requiressl=yes&spc=UWF9f2JbF3a6Xgl_dYcGGPOf_JpextE8OdgV3Cd9zw&vprv=1&svpuc=1&mime=video%2Fmp4&ns=qIrJY3APFUmcBg6nelip_R8P&gir=yes&clen=14685277&ratebypass=yes&dur=204.335&lmt=1679509417678241&fexp=24007246,24363393&c=WEB&txp=6319224&n=PBmltlu2Zwe6OA&sparams=expire%2Cei%2Cip%2Cid%2Citag%2Csource%2Crequiressl%2Cspc%2Cvprv%2Csvpuc%2Cmime%2Cns%2Cgir%2Cclen%2Cratebypass%2Cdur%2Clmt&sig=AOq0QJ8wRgIhAMDNXpDikuH1VJdeTSD_1PSkhdYAJ9nieanZ3KeaFbmpAiEAtidS1SZyuQG6wQTH3_X6Z9_XSSgGvX21bHEG1nQx_lE%3D&rm=sn-uxaxjxougv-x1xey7d&req_id=40e368836319a3ee&cmsv=e&ipbypass=yes&redirect_counter=2&cm2rm=sn-x1xsl7z&cms_redirect=yes&mh=UJ&mip=103.21.125.86&mm=34&mn=sn-npoeenl7&ms=ltu&mt=1691404873&mv=m&mvi=2&pl=24&lsparams=ipbypass,mh,mip,mm,mn,ms,mv,mvi,pl&lsig=AG3C_xAwRgIhAI-58Qae548x6AmxzC8CnDX5sKZbarDz2yD8I9zQ1DhFAiEAlwDxlM1vV0nidWcrO6X7WeKpPB6PN6PrkpsAWtvZ5x0%3D">
-            This video is not supported in your browser
-        </video>
+        <iframe width="800" height="466" src="https://www.youtube.com/embed/BgXaxIogQcU" title="✈️ Campus Tour of IIT BOMBAY | Top Engineering College in India 🔥 | @ALLENCareerInstituteofficial" frameborder="0" allow="accelerometer; autoplay; clipboard-write; encrypted-media; gyroscope; picture-in-picture; web-share" referrerpolicy="strict-origin-when-cross-origin" allowfullscreen></iframe>
     </div>
-    <br><br>
-    <div id="contact-me">
-        <p style="font-size: 1.2rem;">Contact Me:</p>
-        <a href="https://www.linkedin.com/in/asish-a-3426601aa/" target="_blank" style="width: 30;">
-            LinkedIn
-        </a>
-        <a href="https://github.com/atmakuriasish" target="_blank">
-            GitHub
-        </a>
-    </div>
+
+    <footer class="footer-container">
+        <div class="social-icons">
+            <a href="https://github.com/atmakuriasish">
+              <i class="fa-brands fa-github github-icon"></i>
+            </a>
+            <a href="https://www.linkedin.com/in/asish-a-3426601aa/">
+              <i class="fa-brands fa-linkedin linkedin-icon"></i>
+            </a>
+        </div>
+
+        <p class="copyright">© 2024 A Asish.</p>
+    </footer>
+
+    <script
+    src="https://kit.fontawesome.com/640afb8d28.js"
+    crossorigin="anonymous"
+  ></script>
 </body>
 
 </html>

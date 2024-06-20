@@ -1,0 +1,44 @@
+.footer-container {
+    display: flex;
+    height: 100%;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+}
+
+.social-icons {
+    display: flex;
+    justify-content: center;
+    gap: 45px;
+    padding: 10px 20px;
+    transition: gap 0.3s ease;
+    margin-bottom: 10px;
+}
+
+.social-icons i {
+    scale: 2;
+    transition: scale 0.3s ease;
+    cursor: pointer;
+}
+
+.github-icon{
+    color: white;
+}
+
+.linkedin-icon {
+    color: white;
+}
+
+.github-icon:hover {
+    color: #60bf3d;
+}
+
+.linkedin-icon:hover {
+    color: #0A66C2;
+}
+
+.copyright {
+    color: #aab4b5;
+    font-size: 1rem;
+    margin-bottom: 2px;
+}
